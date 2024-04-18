@@ -3,37 +3,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.scss">
     <title>Kacper Świerczek - Portfolio</title>
 </head>
 <body> 
-    <div class="container text-center align-middle">
-        <h3>Kacper Świerczek</h3>
-        <div>
-            <a href="https://github.com/webspruce" alt="github profile link" target="_blank" class="text-decoration-none pe-2"><i class="fa-brands fa-github fa-2xl"></i></a>
-            <a href="https://www.linkedin.com/in/kacper-%C5%9Bwierczek" alt="linkedin profile link" target="_blank" class="text-decoration-none"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+    <main class="container text-center align-middle">
+        <div class="text-center box pt-3 pb-3 pe-2 mx-auto">
+            <h6 class="header-message text-start ps-2">Hello there👋</h6>
+            <h1 class="header-name fw-bold">Kacper Świerczek</h1>
+            <div class="text-end">
+                <a href="https://github.com/webspruce" alt="github profile link" target="_blank" class="text-decoration-none pe-2 social-links"><i class="fa-brands fa-github fa-2xl"></i></a>
+                <a href="https://www.linkedin.com/in/kacper-%C5%9Bwierczek" alt="linkedin profile link" target="_blank" class="text-decoration-none social-links"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+            </div>
         </div>
         <br><br>
-        <div class="row column-gap-1 row-gap-1 align-items-center justify-content-center">
-            <div onclick="location.href='youtube.com';" class="col-sm-6 col-md-6 col-lg-6 customBorder rounded h-100 my-auto">
+
+        <input type="submit" value="Github Profile" class="btn btn-github-profile btn-sm"/>
+
+        <br><br>
+        <div class="row column-gap-2 row-gap-1 align-items-center justify-content-center">
+            <div onclick="window.open('https://github.com/WebSpruce/HolidayCalendar_Installer', '_blank');" target="_blank" class="col-sm-6 col-md-6 col-lg-6 customBorder rounded h-100 my-auto">
                 <i class="fa-solid fa-calendar fa-5x"></i>
-                <p class="text-decoration-none">Holiday Calendar</p>
+                <p class="text-decoration-none">Holiday Calendar<br>.NET MAUI</p>
+                <p class="text-decoration-none techList">MVVM, Web Api, DTO, Object Mapping, Background Services, Repository Pattern, Dependency Injection, Unit Tests</p>
             </div>
-            <div onclick="location.href='youtube.com';" class="col-sm-6 col-md-6 col-lg-6 customBorder rounded h-100 my-auto">
-                <i class="fa-solid fa-virus fa-5x"></i>
-                <p class="text-decoration-none">Holiday Calendar</p>
+            <div onclick="window.open('https://github.com/WebSpruce/FTPClient', '_blank')" class="col-sm-6 col-md-6 col-lg-6 customBorder rounded h-100 my-auto">
+                <i class="fa-solid fa-server fa-5x"></i>
+                <p class="text-decoration-none">FTPClient<br>Avalonia</p>
+                <p class="text-decoration-none techList">MVVM, Dependency Injection, Sqlite<br>...</p>
             </div>
             <div class="w-100"></div>
-            <div onclick="location.href='youtube.com';" class="col-sm-6 col-md-6 col-lg-6 customBorder rounded h-100 my-auto">
-                <i class="fa-solid fa-cloud fa-5x"></i>
-                <p class="text-decoration-none">Holiday Calendar</p>
+            <div onclick="window.open('https://github.com/WebSpruce/WpfVirustotalApp', '_blank')" class="col-sm-6 col-md-6 col-lg-6 customBorder rounded h-100 my-auto">
+                <i class="fa-solid fa-virus fa-5x"></i>
+                <p class="text-decoration-none">VirustotalApp<br>WPF</p>
+                <p class="text-decoration-none techList">Sqlite<br>...</p>
             </div>
-            <div onclick="location.href='youtube.com';" class="col-sm-6 col-md-6 col-lg-6 customBorder rounded h-100 my-auto">
-                <i class="fa-solid fa-calendar fa-5x"></i>
-                <p class="text-decoration-none">Holiday Calendar</p>
+            <div onclick="window.open('https://github.com/WebSpruce/StackOverflowTags', '_blank')" class="col-sm-6 col-md-6 col-lg-6 customBorder rounded h-100 my-auto">
+                <i class="fa-solid fa-cloud fa-5x"></i>
+                <p class="text-decoration-none">StackOverflowTags<br>WebAPI</p>
+                <p class="text-decoration-none techList">Web Api, Docker, Unit Tests, Integration Tests<br>...</p>
             </div>
         </div>
-    </div>
+    </main>
+
+    <footer class="container text-center box pt-5">
+        <p class="text-end techList">©<script>document.write( new Date().getFullYear() );</script> Kacper Świerczek</p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a9f19d3302.js" crossorigin="anonymous"></script>
