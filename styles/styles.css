@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'd-dinregular';
+    src: url('fonts/din2014-bold-webfont.woff') format('woff2'),
+         url('fonts/din2014-bold-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: #2c2f33;
+    padding: 5rem;
+}
+h3{
+    font-family: 'd-dinregular', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    color: #99aab5;
+}
+a{
+    color: #99aab5;
+    font-family: 'd-dinregular', sans-serif;
+}
+.customBorder{
+    padding-top: 4em;
+    padding-bottom: 3em;
+    border: #99aab5 1px solid;
+    color: #99aab5;
+    cursor: pointer;
+    width: 17rem;
+    height: 17rem;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: transform ease 0.5s, box-shadow ease 0.5s;
+}
+.customBorder:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+.btn_a{
+    width: 17rem;
+    height: 17rem;
+}
