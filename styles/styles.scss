@@ -24,11 +24,11 @@ body{
     padding: 5rem;
 }
 .box{
-    width: 72%;
+    width: 80%;
 }
 .header-name{
     font-family: 'd-din', sans-serif;
-    font-size: 7.8vw;
+    font-size: 7.0vw;
     font-weight: bold;
     color: #99aab5;
 }
@@ -81,5 +81,6 @@ a, p{
 }
 .btn-github-profile:hover{
     background-color: #99aab5;
+    color:#2c2f33;
     transform: scale(1.2);
 }
