@@ -84,3 +84,25 @@ a, p{
     color:#2c2f33;
     transform: scale(1.2);
 }
+.btn-other{
+    @extend .btn-github-profile;
+    background-color: #99aab5;
+}
+
+.aboutme{
+    width: 75%;
+    font-weight: normal;
+}
+
+
+@media screen and (max-width: 600px) {
+    .box {
+      width: 100%;
+    }
+    body{
+      padding: 1%;
+    }
+    .aboutme {
+      width: 100%;
+    }
+  }
